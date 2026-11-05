@@ -55,7 +55,7 @@ npm run preview
 # Open http://127.0.0.1:5214/ (stop the dev server first)
 ```
 
-**Always run an HTTP server. Never test gameplay by opening a file directly or using a file URL.** Relative asset paths support GitHub Pages subdirectories. CI runs syntax checks, 27 deterministic rules/save/solver tests, and a production build before publishing via GitHub Pages. Browser gameplay testing is separately documented and is not implied by CI.
+**Always run an HTTP server. Never test gameplay by opening a file directly or using a file URL.** Relative asset paths support GitHub Pages subdirectories. CI runs syntax checks, 28 deterministic rules/save/solver and screenshot-integrity tests, and a production build before publishing via GitHub Pages. Browser gameplay testing is separately documented and is not implied by CI.
 
 ## Repository
 

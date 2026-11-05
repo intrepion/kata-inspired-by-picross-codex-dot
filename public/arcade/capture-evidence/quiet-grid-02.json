@@ -1,0 +1,34 @@
+{
+  "sourceCommit": "50f1d927d96c7754237763617d4ef57851c8ba81",
+  "inputs": {
+    "assets/index-pf-uLpIX.js": "dc2cae46b3ae5873c63ba8ef23848e184e5f86be477e5d2bbaf53cf8a23b9529",
+    "assets/index-sLjFl9bi.css": "704d59aaaf9f0c6e1e536aab0f7c98919acb6fc767d007032bf3caf9d5700c49",
+    "favicon.svg": "05e67c96c631ee9f420d82e04f85f3abc9f30d27cbdec4c288d518599018eb57",
+    "index.html": "0fcbdd6c1eb0cf33e8ece0e94f2334e4f541a8cd038cc7c5de193e505145b4c7"
+  },
+  "capturedAt": "2026-11-05T06:58:40Z",
+  "baseUrl": "http://127.0.0.1:5214/",
+  "tool": {
+    "name": "cua_repl",
+    "version": "browser-runtime"
+  },
+  "browser": {
+    "name": "Chrome",
+    "version": "157.0.8103.38",
+    "versionSource": "Installed Google Chrome.app CFBundleShortVersionString"
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "steps": [
+    "Open the production game at http://127.0.0.1:5214/ using Chrome.",
+    "Complete original puzzle 1 through public controls and reload to verify persistence.",
+    "Select puzzle 5 through its public collection button.",
+    "Click every square in rows 4 and 5, the four center squares in rows 1, 2, 3, and 6.",
+    "Right-click the six empty squares in row 1 to mark crosses.",
+    "Observe 36 fills, six crosses and incomplete status. Capture the unedited browser page."
+  ],
+  "deployedBuild": null,
+  "notes": "Real local production gameplay, public-control input only. Original JPEG browser screenshot bytes retained without image editing. Full-page height may exceed the 1000px viewport. Browser extension warnings were unrelated to the game."
+}

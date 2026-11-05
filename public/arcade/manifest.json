@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 3,
+  "gameId": "kata-inspired-by-picross-codex-dot",
+  "playUrl": "https://intrepion.github.io/kata-inspired-by-picross-codex-dot/",
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/quiet-grid-20261105-01.jpg",
+      "sha256": "055e16a12a41144eeba1bfeb87cace0c5ecdd2c028239f021ab3ee45e1706a25",
+      "alt": "Quiet Grid after solving the original 5 by 5 Little sprout picture with public mouse and keyboard controls, showing the revealed artwork and unassisted completion.",
+      "provenance": {
+        "kind": "local_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/quiet-grid-01.jpg",
+        "sourceSha256": "055e16a12a41144eeba1bfeb87cace0c5ecdd2c028239f021ab3ee45e1706a25",
+        "captureCommit": "50f1d927d96c7754237763617d4ef57851c8ba81",
+        "inputHashes": {
+          "assets/index-pf-uLpIX.js": "dc2cae46b3ae5873c63ba8ef23848e184e5f86be477e5d2bbaf53cf8a23b9529",
+          "assets/index-sLjFl9bi.css": "704d59aaaf9f0c6e1e536aab0f7c98919acb6fc767d007032bf3caf9d5700c49",
+          "favicon.svg": "05e67c96c631ee9f420d82e04f85f3abc9f30d27cbdec4c288d518599018eb57",
+          "index.html": "0fcbdd6c1eb0cf33e8ece0e94f2334e4f541a8cd038cc7c5de193e505145b4c7"
+        },
+        "capturedAt": "2026-11-05T07:00:32Z",
+        "captureRecordPath": "arcade/capture-evidence/quiet-grid-01.json",
+        "captureRecordSha256": "da01ef7470ea3c86cc4041938eeb80f4b7b12c1bc1d589a67ceb452e26001d3d"
+      }
+    },
+    {
+      "path": "arcade/screenshots/quiet-grid-20261105-02.jpg",
+      "sha256": "3268261862ef8c8b963695a90379f98557e6512da9733aaa4532e39a3c88b7bd",
+      "alt": "Quiet Grid during an original 10 by 10 nonogram, with 36 filled squares, six crosses, ordered row and column clues, drawing tools and the collection selector.",
+      "provenance": {
+        "kind": "local_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/quiet-grid-02.jpg",
+        "sourceSha256": "3268261862ef8c8b963695a90379f98557e6512da9733aaa4532e39a3c88b7bd",
+        "captureCommit": "50f1d927d96c7754237763617d4ef57851c8ba81",
+        "inputHashes": {
+          "assets/index-pf-uLpIX.js": "dc2cae46b3ae5873c63ba8ef23848e184e5f86be477e5d2bbaf53cf8a23b9529",
+          "assets/index-sLjFl9bi.css": "704d59aaaf9f0c6e1e536aab0f7c98919acb6fc767d007032bf3caf9d5700c49",
+          "favicon.svg": "05e67c96c631ee9f420d82e04f85f3abc9f30d27cbdec4c288d518599018eb57",
+          "index.html": "0fcbdd6c1eb0cf33e8ece0e94f2334e4f541a8cd038cc7c5de193e505145b4c7"
+        },
+        "capturedAt": "2026-11-05T06:58:40Z",
+        "captureRecordPath": "arcade/capture-evidence/quiet-grid-02.json",
+        "captureRecordSha256": "c0ea58e1c3bba25877fc298fa0b182d689ad35de58059641d557c5eeb6d8fb10"
+      }
+    }
+  ]
+}
