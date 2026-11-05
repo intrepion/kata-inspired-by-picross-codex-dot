@@ -51,6 +51,7 @@ Production verification:
 npm run check
 npm test
 npm run build
+npm run verify:captures
 npm run preview
 # Open http://127.0.0.1:5214/ (stop the dev server first)
 ```
@@ -69,7 +70,7 @@ npm run preview
 
 ## Screenshots and verification
 
-See [validation notes](docs/VALIDATION.md). The Arcade screenshots are genuine local production-game browser captures from `http://127.0.0.1:5214/`, reached through public controls. Their original JPEG bytes are retained without pixel editing. Schema-v3 records name the actual `cua_repl` browser runtime, source commit, viewport, capture steps, and hashes of every served game input. They are not labeled as Playwright or CI captures. Publishing the screenshots does not by itself prove equivalence to a live build; published input and screenshot hashes are checked separately before the Arcade snapshot is synced.
+See [validation notes](docs/VALIDATION.md). The Arcade screenshots are genuine local production-game browser captures from `http://127.0.0.1:5214/`, reached through public controls. Their original JPEG bytes are retained without pixel editing. Schema-v3 records name the actual `cua_repl` browser runtime, source commit, viewport, capture steps, and hashes of every served game input. They are not labeled as Playwright or CI captures. The read-only `npm run verify:captures` check refuses to associate old captures with changed production inputs. New artwork or behavior requires fresh browser captures and reviewed records, not relabeling. Publishing the screenshots does not by itself prove equivalence to a live build; published input and screenshot hashes are checked separately before the Arcade snapshot is synced.
 
 ## License
 
